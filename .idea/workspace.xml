@@ -25,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/js/app.js">
+      <file leaf-file-name="commentHandlebars.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/partials/commentHandlebars.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8333333" vertical-offset="100" max-vertical-offset="1050">
-              <caret line="34" column="49" selection-start-line="34" selection-start-column="49" selection-end-line="34" selection-end-column="49" />
+            <state vertical-scroll-proportion="0.33333334" vertical-offset="0" max-vertical-offset="900">
+              <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -136,6 +136,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sandbox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sandbox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="partials" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -288,7 +310,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="350" max-vertical-offset="1075">
           <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-          <folding />
+          <folding>
+            <marker date="1422494862000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1422494862000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1422494862000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1422494862000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1422494862000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1422494862000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2067,49 +2096,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/partials/commentHandlebars.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334" vertical-offset="0" max-vertical-offset="900">
-          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-          <folding>
-            <marker date="1422242384000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Requests/Request.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="900">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <marker date="1421890520000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CommentsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6944444" vertical-offset="475" max-vertical-offset="2475">
-          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-          <folding>
-            <marker date="1422242602000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1422242602000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1422242602000" expanded="true" signature="-1:-1" placeholder=" Display a listing of the resource. ..." />
-            <marker date="1422242602000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1422242602000" expanded="true" signature="-1:-1" placeholder=" Show the form for creating a new resource. ..." />
-            <marker date="1422242602000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1422242602000" expanded="true" signature="-1:-1" placeholder=" Store a newly created resource in storage. ..." />
-            <marker date="1422242602000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1422242602000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1422242602000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1422242602000" expanded="true" signature="-1:-1" placeholder=" Display the specified resource. ..." />
-            <marker date="1422242602000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1422242602000" expanded="true" signature="-1:-1" placeholder=" Show the form for editing the specified resource. ..." />
-            <marker date="1422242602000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1422242602000" expanded="true" signature="-1:-1" placeholder=" Update the specified resource in storage. ..." />
-            <marker date="1422242602000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1422242602000" expanded="true" signature="-1:-1" placeholder=" Remove the specified resource from storage. ..." />
-            <marker date="1422242602000" expanded="true" signature="-1:-1" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -2231,10 +2223,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CommentsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6388889" vertical-offset="525" max-vertical-offset="2475">
+          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding>
+            <marker date="1422242602000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1422242602000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1422242602000" expanded="true" signature="-1:-1" placeholder=" Display a listing of the resource. ..." />
+            <marker date="1422242602000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1422242602000" expanded="true" signature="-1:-1" placeholder=" Show the form for creating a new resource. ..." />
+            <marker date="1422242602000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1422242602000" expanded="true" signature="-1:-1" placeholder=" Store a newly created resource in storage. ..." />
+            <marker date="1422242602000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1422242602000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1422242602000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1422242602000" expanded="true" signature="-1:-1" placeholder=" Display the specified resource. ..." />
+            <marker date="1422242602000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1422242602000" expanded="true" signature="-1:-1" placeholder=" Show the form for editing the specified resource. ..." />
+            <marker date="1422242602000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1422242602000" expanded="true" signature="-1:-1" placeholder=" Update the specified resource in storage. ..." />
+            <marker date="1422242602000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1422242602000" expanded="true" signature="-1:-1" placeholder=" Remove the specified resource from storage. ..." />
+            <marker date="1422242602000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8333333" vertical-offset="100" max-vertical-offset="1050">
-          <caret line="34" column="49" selection-start-line="34" selection-start-column="49" selection-end-line="34" selection-end-column="49" />
+        <state vertical-scroll-proportion="0.19444445" vertical-offset="0" max-vertical-offset="1050">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+          <folding>
+            <marker date="1422494862000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1422494862000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1422494862000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1422494862000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1422494862000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1422494862000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/partials/commentHandlebars.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334" vertical-offset="0" max-vertical-offset="900">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
           <folding />
         </state>
       </provider>

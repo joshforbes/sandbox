@@ -7,7 +7,7 @@
         $(template({
             name: data['name'],
             body: data['body'],
-            time: data['timestamp']}))
+            time: data['time']}))
         .prependTo('section');
     });
 
