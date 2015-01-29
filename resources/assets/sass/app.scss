@@ -1,0 +1,51 @@
+@import "bootstrap";
+
+.comment {
+    margin: 20px 0px 40px 0px;
+
+    .comment-wrap {
+        border: 1px $navbar-default-border solid;
+        padding: 1em 1.5em 0em;
+        background-color: $navbar-default-bg;
+        border-radius: 1em;
+
+        .user-name {
+            color: red;
+            font-size: 1.1em;
+        }
+
+        .timestamp {
+            display: block;
+            color: darken($navbar-default-border, 20%);
+            font-size: .9em;
+            margin-bottom: .5em;
+        }
+    }
+
+    .comment-wrap:before {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 21px;
+        left: -6px;
+        width: 10px;
+        height: 10px;
+        background: $navbar-default-bg;
+        border-left: 1px solid $navbar-default-border;
+        border-top: 1px solid $navbar-default-border;
+        -moz-transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+    }
+
+    .avatar-wrap {
+        margin-right: 2.5em;
+        img {
+            border-radius: 30px;
+        }
+    }
+}
+
+.comment-form {
+    margin-top: 1.5em;
+}
+
