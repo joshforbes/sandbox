@@ -11,6 +11,11 @@
         .prependTo('section');
     });
 
+    var clearContents = function() {
+        var commentBody = $('.commentBody');
+        commentBody.val('');
+    };
+
     var submitLaravelRequest = function(e) {
         var form = $(this);
         var method = 'POST';
@@ -20,7 +25,7 @@
             url: form.prop('action'),
             data: form.serialize(),
             success: function() {
-
+                clearContents();
             }
         });
 
